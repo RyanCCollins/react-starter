@@ -1,0 +1,19 @@
+[ignore]
+.*/node_modules/.*
+.*/dist/*
+.*/config/flow-typed/npm
+
+[include]
+
+[libs]
+.*/config/flow-typed/npm
+
+[lints]
+
+[options]
+module.name_mapper='^containers$' -> '<PROJECT_ROOT>/app/src/containers'
+module.name_mapper='^components$' -> '<PROJECT_ROOT>/app/src/components'
+module.name_mapper='^screens$' -> '<PROJECT_ROOT>/app/src/screens'
+module.name_mapper='^utils$' -> '<PROJECT_ROOT>/app/src/utils'
+
+[strict]
