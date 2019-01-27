@@ -28,6 +28,7 @@ module.exports = {
       constants: path.resolve(__dirname, './src/constants'),
       utils: path.resolve(__dirname, './src/utils'),
       selectors: path.resolve(__dirname, './src/selectors'),
+      api: path.resolve(__dirname, './src/api'),
     }
   },
   devServer: {

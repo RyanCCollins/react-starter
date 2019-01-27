@@ -35,7 +35,9 @@
   },
   "dependencies": {
     "grommet": "^2.3.1",
+    "grommet-icons": "^4.1.0",
     "jest": "^24.0.0",
+    "lodash": "^4.17.11",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-hot-loader": "^4.6.3",
