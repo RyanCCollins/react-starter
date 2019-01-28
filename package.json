@@ -11,7 +11,7 @@
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "test": "./node_modules/.bin/jest",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
     "lint": "./node_modules/.bin/eslint ."
   },
   "devDependencies": {
@@ -55,6 +55,7 @@
       "components": "<rootDir>/src/components",
       "screens": "<rootDir>/src/screens",
       "constants": "<rootDir>/src/constants",
+      "api": "<rootDir>/src/api",
       "utils": "<rootDir>/src/utils",
       "selectors": "<rootDir>/src/selectors"
     }
